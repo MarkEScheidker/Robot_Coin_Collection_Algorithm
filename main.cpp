@@ -123,7 +123,7 @@ int main() {
          {0, 0, 0, 1, 0, 1, 0, 1, 0, 1},
          {1, 0, 0, 0, 0, 1, 1, 0, 1, 0}};
          
-    outfile.open("CS317_HW3.txt"); //open global output file
+    outfile.open("output.txt"); //open global output file
 
     RobotCoinCollection(C1);    //run robot coin collection algorithm for each matrix
     std::cout<<"\n\n";
